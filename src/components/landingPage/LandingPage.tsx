@@ -76,8 +76,6 @@ const StyledLink = styled(Link)`
   text-align: center;
   border-radius: 5px;
   &:hover {
-    /* background-color: ${({ theme }) => theme.colors.white.base};
-    color: ${({ theme }) => theme.colors.primary.main}; */
     box-shadow: 0px 0px 12px ${({ theme }) => theme.colors.black.base};
   }
 `;
